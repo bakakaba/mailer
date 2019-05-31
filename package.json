@@ -1,0 +1,23 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "3rd Party mail service integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruz82/mailer.git"
+  },
+  "keywords": [
+    "mail",
+    "communication"
+  ],
+  "author": "cruz82",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruz82/mailer/issues"
+  },
+  "homepage": "https://github.com/cruz82/mailer#readme"
+}
