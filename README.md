@@ -5,6 +5,7 @@
 - [ ] DKIM Signing
 - [ ] Spam Scoring
 - [ ] Traffic Shaping?
+- [ ] Queue interface?
 
 ### Email Object Model
 
