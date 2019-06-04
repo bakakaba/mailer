@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`invalid email 1`] = `
+Array [
+  "test+from@something is not valid.",
+  "test+to@something is not valid.",
+]
+`;
+
+exports[`missing required fields 1`] = `
+Array [
+  "Mail is missing one or more required fields (to|from|subject|body).",
+]
+`;
