@@ -22,5 +22,8 @@
   "homepage": "https://github.com/cruz82/mailer#readme",
   "devDependencies": {
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }

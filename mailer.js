@@ -1,4 +1,4 @@
-const { validation } = require("./utilities");
+const { validation, sender } = require("./utilities");
 
 function createResult(statusCode, result) {
   return {
@@ -15,9 +15,10 @@ async function send(event) {
     return createResult(400, validationResult);
   }
 
+  await sender.sendWithFallback(mail);
+
   return {
-    statusCode: 200,
-    body: JSON.stringify(mail, null, 2)
+    statusCode: 204
   };
 }
 
